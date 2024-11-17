@@ -11,14 +11,14 @@ const projects = [
     figmaLink: "https://www.figma.com/design/xxsVjxdPeKbqjH0MI36nhw/Zomato?node-id=0-1&t=Kr4TZmc3p086VHMZ-1",
     status: "Completed",
   },
-  {
-    title: "Revampmoto Redesign",
-    description: "Transformed Revampmoto's main page with a contemporary design approach, enhancing functionality and aesthetics to align with the brand’s innovative image. Delivered a visually engaging and user-centric interface, optimizing navigation for a smoother browsing experience tailored to their audience. Technologies Used: HTML, CSS, JavaScript, GSAP, and Locomotive.js",
-    liveLink: "https://ka-29-coders-reimagine-round1.vercel.app/", // Not available
-    codeLink: "https://github.com/ArslanDoddamani/KA29_Coders-ReimagineRound1",
-    figmaLink: "https://www.figma.com/design/FBmyJA1QRgFCAZjxRDgMjd/Revamp-Moto?node-id=0-1&t=Yae8RbbWl4Vh0avh-1",
-    status: "Completed",
-  },
+  // {
+  //   title: "Revampmoto Redesign",
+  //   description: "Transformed Revampmoto's main page with a contemporary design approach, enhancing functionality and aesthetics to align with the brand’s innovative image. Delivered a visually engaging and user-centric interface, optimizing navigation for a smoother browsing experience tailored to their audience. Technologies Used: HTML, CSS, JavaScript, GSAP, and Locomotive.js",
+  //   liveLink: "https://ka-29-coders-reimagine-round1.vercel.app/", // Not available
+  //   codeLink: "https://github.com/ArslanDoddamani/KA29_Coders-ReimagineRound1",
+  //   figmaLink: "https://www.figma.com/design/FBmyJA1QRgFCAZjxRDgMjd/Revamp-Moto?node-id=0-1&t=Yae8RbbWl4Vh0avh-1",
+  //   status: "Completed",
+  // },
   {
     title: "BEC IEEE Website",
     description:
@@ -68,16 +68,16 @@ const projects = [
     title: "Amazon Clone-Main Page",
     description:
       "Created a replica of Amazon’s main page, focusing on a clean, intuitive design and seamless user experience. The clone features product listings, a responsive layout, and smooth navigation to mimic the dynamic shopping experience of the original site. Implemented key design elements and functionality to ensure a visually appealing and user-friendly interface. Technologies Used: HTML, CSS, JavaScript",
-    liveLink: "https://vercel.com/arslan-doddamanis-projects/amazon",
+    liveLink: "https://amazon-iota-lake.vercel.app/",
     codeLink: "https://github.com/ArslanDoddamani/amazon-",
     figmaLink: null,
     status: "Completed",
   },
   {
-    title: "Amazon Clone-Main Page",
+    title: "Recipe book",
     description:
       "Developed an interactive recipe book website that allows users to browse, search, and filter through various recipes. Each recipe page includes detailed instructions, ingredients, and images for easy cooking. The site features a clean, responsive design with smooth navigation, ensuring a seamless experience across all devices.Technologies Used: HTML, CSS, JavaScript",
-    liveLink: "https://vercel.com/arslan-doddamanis-projects/recipe-book",
+    liveLink: "https://recipe-book-three-sage.vercel.app/",
     codeLink: "https://github.com/ArslanDoddamani/RecipeBook",
     figmaLink: null,
     status: "Completed",
@@ -173,7 +173,7 @@ const App = () => {
             <div className="flex justify-start my-6">
             <button
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-              onClick={() => window.open('path/to/your/resume.pdf', '_blank')}
+              onClick={() => window.open('https://drive.google.com/file/d/1TjUPvPzZnVcsb3SZo2PvcTMNmQY6wyle/view?usp=drive_link', '_blank')}
             >
               Download Resume
             </button>
