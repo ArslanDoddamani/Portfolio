@@ -181,9 +181,9 @@ const App = () => {
 
             <section>
               <h2 className="text-xl font-semibold">About</h2>
-              <p className="text-justify">
+              <p className="">
                 👋 Hi! I’m a Full Stack Web Developer and UI/UX Designer skilled
-                in React, Three.js, Figma, and tools like Redux and SCSS.
+                in React, Three.js, Gsap, and tools like Figma and Canva.
                 <br />
                 <br />
                 🚀 I’ve had the opportunity to work as a React Developer Intern
