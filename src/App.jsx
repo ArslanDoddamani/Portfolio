@@ -173,7 +173,7 @@ const App = () => {
             <div className="flex justify-start my-6">
             <button
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-              onClick={() => window.open('https://drive.google.com/file/d/1TjUPvPzZnVcsb3SZo2PvcTMNmQY6wyle/view?usp=drive_link', '_blank')}
+              onClick={() => window.open('https://drive.google.com/file/d/13C4lL9k35o3IdpYrEzt0iEToD4HNa0R3/view?usp=sharing', '_blank')}
             >
               Download Resume
             </button>
@@ -194,6 +194,7 @@ const App = () => {
                 <a
                   className="text-blue-500 hover:underline"
                   href="https://www.vealthx.com/"
+                  target="_blank"
                 >
                   Website preview 
                 </a>
