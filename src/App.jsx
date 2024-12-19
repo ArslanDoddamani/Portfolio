@@ -1,89 +1,9 @@
 // https://mohamed-lifa7.vercel.app/
 
 import React, { useState } from "react";
+import { projects } from "../project";
 
-const projects = [
-  {
-    title: "Zomato Redesign",
-    description: "Redesigned Zomato's main page to elevate the user experience by incorporating modern, intuitive interfaces and streamlined navigation. Focused on improving visual appeal while maintaining a sleek and user-friendly design. The revamp emphasized creating a seamless browsing experience that resonates with Zomato’s dynamic audience. Technologies Used: HTML, CSS, JavaScript, GSAP, and Locomotive.js",
-    liveLink: "https://ka-29-coders-reimagine-round2.vercel.app/",
-    codeLink: "https://github.com/ArslanDoddamani/KA29_Coders-ReimagineRound2",
-    figmaLink: "https://www.figma.com/design/xxsVjxdPeKbqjH0MI36nhw/Zomato?node-id=0-1&t=Kr4TZmc3p086VHMZ-1",
-    status: "Completed",
-  },
-  // {
-  //   title: "Revampmoto Redesign",
-  //   description: "Transformed Revampmoto's main page with a contemporary design approach, enhancing functionality and aesthetics to align with the brand’s innovative image. Delivered a visually engaging and user-centric interface, optimizing navigation for a smoother browsing experience tailored to their audience. Technologies Used: HTML, CSS, JavaScript, GSAP, and Locomotive.js",
-  //   liveLink: "https://ka-29-coders-reimagine-round1.vercel.app/", // Not available
-  //   codeLink: "https://github.com/ArslanDoddamani/KA29_Coders-ReimagineRound1",
-  //   figmaLink: "https://www.figma.com/design/FBmyJA1QRgFCAZjxRDgMjd/Revamp-Moto?node-id=0-1&t=Yae8RbbWl4Vh0avh-1",
-  //   status: "Completed",
-  // },
-  {
-    title: "BEC IEEE Website",
-    description:
-      "Built the BEC IEEE Student Branch website from scratch, creating a modern and interactive platform to showcase the branch’s activities, achievements, and events. Designed with a focus on seamless navigation, engaging visuals, and user-friendly functionality, the site delivers a professional and dynamic user experience. Incorporated advanced animations and 3D elements to enhance visual appeal and interactivity. Technologies Used: React.js, GSAP, Tailwind CSS, and React Three Fiber",
-    liveLink: "https://id-card-pi.vercel.app/",
-    codeLink: null,
-    figmaLink: "https://www.figma.com/design/9INhbSbZOO2QZRVwKlVAhZ/BEC-IEEE?node-id=0-1&t=Fv6AtnMU4dLjj7T1-1",
-    status: "Working",
-  },
-  {
-    title: "Speech-to-Text",
-    description:
-      "The speech-to-text converter, with a copy feature, is designed to convert spoken language into written text in real-time, enhancing accessibility and productivity. Technologies Used: React.js and Web Speech API.",
-    liveLink: "https://speech-to-text-bay.vercel.app/",
-    codeLink: "https://github.com/ArslanDoddamani/Speech_to_Text",
-    figmaLink: null,
-    status: "Completed",
-  },
-  {
-    title: "Todo Web Application",
-    description:
-      "Developed a dynamic and responsive Todo web application from scratch, providing users with an intuitive interface to manage tasks efficiently. Designed for simplicity and ease of use, the application includes features like task addition, deletion, and real-time updates. The clean and modern design ensures a seamless user experience across all devices. Technologies Used: React.js and Tailwind CSS",
-    liveLink: "https://todo-eosin-five.vercel.app/",
-    codeLink: "https://github.com/ArslanDoddamani/Todo",
-    figmaLink: null,
-    status: "Completed",
-  },
-  {
-    title: "Full-Stack E-Commerce Website",
-    description:
-      "Developed a feature-rich e-commerce platform with seamless browsing, secure payments, and admin functionality, offering a complete online shopping experience. Technologies Used: MERN Stack (MongoDB, Express.js, React.js, Node.js)",
-    liveLink: null,
-    codeLink: null,
-    figmaLink: null,
-    status: "Working",
-  },
-  {
-    title: "University Examination Payment Automation",
-    description:
-      "Developed a platform to streamline subject registration and exam fee payments with secure online payment integration, enhancing efficiency and user convenience. Technologies Used: MERN Stack (MongoDB, Express.js, React.js, Node.js)",
-    liveLink: null,
-    codeLink: null,
-    figmaLink: null,
-    status: "Working",
-  },
-  {
-    title: "Amazon Clone-Main Page",
-    description:
-      "Created a replica of Amazon’s main page, focusing on a clean, intuitive design and seamless user experience. The clone features product listings, a responsive layout, and smooth navigation to mimic the dynamic shopping experience of the original site. Implemented key design elements and functionality to ensure a visually appealing and user-friendly interface. Technologies Used: HTML, CSS, JavaScript",
-    liveLink: "https://amazon-iota-lake.vercel.app/",
-    codeLink: "https://github.com/ArslanDoddamani/amazon-",
-    figmaLink: null,
-    status: "Completed",
-  },
-  {
-    title: "Recipe book",
-    description:
-      "Developed an interactive recipe book website that allows users to browse, search, and filter through various recipes. Each recipe page includes detailed instructions, ingredients, and images for easy cooking. The site features a clean, responsive design with smooth navigation, ensuring a seamless experience across all devices.Technologies Used: HTML, CSS, JavaScript",
-    liveLink: "https://recipe-book-three-sage.vercel.app/",
-    codeLink: "https://github.com/ArslanDoddamani/RecipeBook",
-    figmaLink: null,
-    status: "Completed",
-  },
 
-];
 
 const App = () => {
   return (
@@ -95,7 +15,7 @@ const App = () => {
               <h1 className="text-xl font-bold sm:text-2xl">
                 Arslan Doddamani
               </h1>
-              <p className="">Full Stack Web developer and Designer</p>
+              <p className="tracking-wider">Innovative Coder & Designer</p>
             </div>
             <div className="flex flex-1 items-center justify-end space-x-4">
               <nav className="flex items-center space-x-1">
@@ -173,7 +93,7 @@ const App = () => {
             <div className="flex justify-start my-6">
             <button
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-              onClick={() => window.open('https://drive.google.com/file/d/13C4lL9k35o3IdpYrEzt0iEToD4HNa0R3/view?usp=sharing', '_blank')}
+              onClick={() => window.open('https://drive.google.com/file/d/1T7Sakfljoe9dtdaXHd4XHJMjSp1KMbrZ/view?usp=sharing', '_blank')}
             >
               Download Resume
             </button>
