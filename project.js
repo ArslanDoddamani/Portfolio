@@ -12,7 +12,7 @@ export const projects = [
     title: "MERN Stack Setup Automation",
     description:"A script that automates the creation of a MERN stack project folder structure. It sets up the frontend with Vite React and Tailwind CSS, and initializes the backend with directories like models, views, and utils while installing essential npm packages.",
     liveLink: null,
-    codeLink: "https://github.com/ArslanDoddamani/MERN-Stack-Setup-Automation/blob/main/test.py",
+    codeLink: "https://github.com/ArslanDoddamani/MERN-Stack-Setup-Automation/",
     figmaLink: null,
     status: "Completed",
   },
@@ -20,7 +20,7 @@ export const projects = [
     title: "BEC IEEE Website",
     description:
       "Built the BEC IEEE Student Branch website from scratch, creating a modern and interactive platform to showcase the branch’s activities, achievements, and events. Designed with a focus on seamless navigation, engaging visuals, and user-friendly functionality, the site delivers a professional and dynamic user experience. Incorporated advanced animations and 3D elements to enhance visual appeal and interactivity. Technologies Used: React.js, GSAP, Tailwind CSS, and React Three Fiber",
-    liveLink: "https://bec-ieee-site.vercel.app/",
+    liveLink: "https://www.becieee.org/",
     codeLink: "https://github.com/ArslanDoddamani/BEC-IEEE-Site",
     figmaLink:
       "https://www.figma.com/design/9INhbSbZOO2QZRVwKlVAhZ/BEC-IEEE?node-id=0-1&t=Fv6AtnMU4dLjj7T1-1",
