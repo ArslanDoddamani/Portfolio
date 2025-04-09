@@ -1,11 +1,10 @@
 // https://mohamed-lifa7.vercel.app/
 
-import React, { useState } from "react";
+import { useState } from "react";
 import { projects } from "../project";
 
-
-
 const App = () => {
+  const [isExpanded, setIsExpanded] = useState(false);
   return (
     <>
       <div className="bg-black text-white px-6">
@@ -85,30 +84,35 @@ const App = () => {
           ></div>
         </header>
 
-        
-
         <main className="container mx-auto my-4 w-full max-w-4xl">
           <div className="flex flex-col space-y-4">
-
             <div className="flex justify-start my-6">
-            <button
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-              onClick={() => window.open('https://drive.google.com/file/d/1T7Sakfljoe9dtdaXHd4XHJMjSp1KMbrZ/view?usp=sharing', '_blank')}
-            >
-              Download Resume
-            </button>
-          </div>
+              <button
+                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                onClick={() =>
+                  window.open(
+                    "https://drive.google.com/file/d/1MgSNX0wvwiqnVETB1ity2wF9opQABKHs/view?usp=sharing",
+                    "_blank"
+                  )
+                }
+              >
+                Download Resume
+              </button>
+            </div>
 
             <section>
               <h2 className="text-xl font-semibold">About</h2>
               <p className="">
-                👋 Hi! I’m a Full Stack Web Developer and UI/UX Designer skilled
-                in React, Three.js, Gsap, and tools like Figma and Canva.
+                👋 Hi! I’m a Web Developer and UI/UX Designer skilled in React,
+                Three.js, GSAP, and design tools like Figma and Canva. I’m
+                currently learning <strong>full stack development</strong> and
+                have some experience with the <strong>MERN stack</strong>{" "}
+                (MongoDB, Express.js, React, Node.js).
                 <br />
                 <br />
                 🚀 I’ve had the opportunity to work as a React Developer Intern
-                at a startup, where I contributed to building scalable and
-                interactive web applications. This experience has honed my
+                at <strong>Vealthx</strong>, where I contributed to building scalable and
+                interactive web applications. This experience honed my
                 problem-solving skills and deepened my understanding of
                 real-world development.
                 <a
@@ -116,14 +120,16 @@ const App = () => {
                   href="https://www.vealthx.com/"
                   target="_blank"
                 >
-                  Website preview 
+                  Website preview
                 </a>
                 <br />
                 <br />
-                🔎 I’m currently on the lookout for exciting opportunities in
-                Web Development and UI/UX Design roles. If you’re seeking
-                someone who’s detail-oriented, innovative, and eager to create
-                impactful digital experiences, let’s connect!
+                💻 I’m currently working as a <strong>Software Developer Intern at
+                Barracuda Networks</strong>, where I continue to grow my technical skills
+                and work on impactful projects that make a difference.
+                <br />
+                <br />
+                If you’re looking to collaborate or just geek out about tech, design, or anything in between—let’s connect!
                 <br />
                 <br />
                 📩 Feel free to reach out:{" "}
@@ -148,7 +154,7 @@ const App = () => {
               <h2 className="mb-6 text-xl font-semibold mt-2">Projects</h2>
               <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                 {projects.map((project, index) => {
-                  const [isExpanded, setIsExpanded] = useState(false);
+                  
 
                   return (
                     <div

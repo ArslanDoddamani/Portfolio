@@ -3,10 +3,10 @@ export const projects = [
     title: "Examination Section Payment Automation System",
     description:
       "Developed a platform to streamline subject registration and exam fee payments with secure online payment integration, enhancing efficiency and user convenience. Technologies Used: MERN Stack (MongoDB, Express.js, React.js, Node.js)",
-    liveLink: null,
+    liveLink: "https://examinationsystemfrontend.vercel.app/",
     codeLink: "https://github.com/ArslanDoddamani/Examination-System",
     figmaLink: null,
-    status: "Working",
+    status: "Completed",
   },
   {
     title: "MERN Stack Setup Automation",
